@@ -1,0 +1,15 @@
+{
+    "sass.enabled": true,
+    "path": {
+        "sass/main.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "brackets-indent-guides.enabled": true
+        }
+    }
+}
