@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "about.css",
+  "sources": [
+    "about.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,MAAM,CAAC;EACL,MAAM,EAAE,MAAO;EACf,gBAAgB,EAAE,IAAK,GAFjB",
+  "names": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "home.css",
+  "sources": [
+    "home.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAK;EACd,UAAU,EAAE,KAAM,GAFR",
+  "names": []
+}

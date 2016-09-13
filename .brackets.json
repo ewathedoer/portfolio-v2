@@ -5,11 +5,18 @@
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../css/",
-                "includePaths": [],
+                "includePaths": ["modules"],
                 "sourceComments": false,
+                "sourceMap": false,
                 "outputStyle": "nested"
             },
-            "brackets-indent-guides.enabled": true
+            "brackets-indent-guides.enabled": true,
+            "mikaeljorhult.bracketsAutoprefixer.visualCascade": false,
+            "mikaeljorhult.bracketsAutoprefixer.browsers": [
+                "> 1%",
+                "last 2 versions",
+                "Firefox ESR"
+            ]
         }
     }
 }
