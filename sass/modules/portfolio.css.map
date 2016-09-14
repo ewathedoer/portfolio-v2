@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "portfolio.css",
+  "sources": [
+    "portfolio.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,MAAO,GADf",
+  "names": []
+}

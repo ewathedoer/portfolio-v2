@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "repos.css",
+  "sources": [
+    "repos.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,KAAM,GADlB",
+  "names": []
+}

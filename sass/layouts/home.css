@@ -3,4 +3,23 @@
   display: flex;
   min-height: 100vh; }
 
+/* line 5, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.home-sections {
+  display: flex;
+  flex: 1;
+  background-color: lightyellow;
+  flex-direction: column;
+  height: 2500px;
+  color: #333; }
+
+/* line 13, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.full-width {
+  display: flex;
+  flex: 1; }
+
+@media (max-width: 768px) {
+  /* line 18, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-wrap {
+    display: block; } }
+
 /*# sourceMappingURL=home.css.map */

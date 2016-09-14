@@ -5,7 +5,7 @@
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../css/",
-                "includePaths": ["modules"],
+                "includePaths": ["base","layouts","modules"],
                 "sourceComments": false,
                 "sourceMap": false,
                 "outputStyle": "nested"
