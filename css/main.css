@@ -120,6 +120,9 @@
 .repos {
   background-color: green; }
 
+.contact {
+  background-color: yellow; }
+
 .home-wrap {
   display: flex;
   min-height: 100vh; }
@@ -129,16 +132,43 @@
   flex: 1;
   background-color: lightyellow;
   flex-direction: column;
-  height: 2500px;
   color: #333; }
+  .home-sections .wrapper {
+    display: flex;
+    flex-direction: row; }
+  .home-sections .flex-center {
+    justify-content: center; }
+  .home-sections .flex-space-around {
+    justify-content: space-around; }
+  .home-sections .order-first {
+    order: -1; }
+  .home-sections section {
+    padding: 50px 0; }
 
-.full-width {
-  display: flex;
-  flex: 1; }
+.col-1-2 {
+  max-width: 300px;
+  margin: 0 10px;
+  background: green; }
+
+.col-1 {
+  max-width: 620px;
+  margin: 0 10px;
+  background: orange; }
+
+.col-one-side {
+  width: 50%;
+  background: lightblue; }
 
 @media (max-width: 768px) {
   .home-wrap {
-    display: block; } }
+    display: block; }
+  .home-sections .wrapper {
+    display: block; }
+  .col-1-2,
+  .col-1 {
+    max-width: 100%; }
+  .col-one-side {
+    width: auto; } }
 
 body {
   background-color: lightgrey;

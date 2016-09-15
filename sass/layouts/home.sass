@@ -7,13 +7,52 @@
   flex: 1
   background-color: lightyellow
   flex-direction: column
-  height: 2500px
   color: #333
-
-.full-width
-  display: flex
-  flex: 1
   
+  // flex styles
+  .wrapper
+    display: flex
+    flex-direction: row
+    
+  .flex-center
+    justify-content: center
+  
+  .flex-space-around
+    justify-content: space-around
+  
+  .order-first
+    order: -1
+  
+  // air between each menu section   
+  section
+    padding: 50px 0
+
+// grid columns
+.col-1-2
+  max-width: 300px
+  margin: 0 10px
+  background: green
+
+.col-1
+  max-width: 620px
+  margin: 0 10px
+  background: orange
+
+.col-one-side
+  width: 50%
+  background: lightblue
+  
+// media queries  
 @media (max-width: 768px)
   .home-wrap
     display: block
+
+  .home-sections .wrapper
+    display: block
+  
+  .col-1-2,
+  .col-1
+    max-width: 100%
+  
+  .col-one-side
+    width: auto

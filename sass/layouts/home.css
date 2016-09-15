@@ -9,17 +9,54 @@
   flex: 1;
   background-color: lightyellow;
   flex-direction: column;
-  height: 2500px;
   color: #333; }
+  /* line 13, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .wrapper {
+    display: flex;
+    flex-direction: row; }
+  /* line 17, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .flex-center {
+    justify-content: center; }
+  /* line 20, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .flex-space-around {
+    justify-content: space-around; }
+  /* line 23, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .order-first {
+    order: -1; }
+  /* line 27, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections section {
+    padding: 50px 0; }
 
-/* line 13, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
-.full-width {
-  display: flex;
-  flex: 1; }
+/* line 31, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.col-1-2 {
+  max-width: 300px;
+  margin: 0 10px;
+  background: green; }
+
+/* line 36, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.col-1 {
+  max-width: 620px;
+  margin: 0 10px;
+  background: orange; }
+
+/* line 41, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.col-one-side {
+  width: 50%;
+  background: lightblue; }
 
 @media (max-width: 768px) {
-  /* line 18, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 47, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-wrap {
-    display: block; } }
+    display: block; }
+  /* line 50, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .wrapper {
+    display: block; }
+  /* line 54, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .col-1-2,
+  .col-1 {
+    max-width: 100%; }
+  /* line 57, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .col-one-side {
+    width: auto; } }
 
 /*# sourceMappingURL=home.css.map */
