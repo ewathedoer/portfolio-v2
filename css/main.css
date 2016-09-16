@@ -112,13 +112,16 @@
     transform: translateY(0%); } }
 
 .about {
-  background-color: pink; }
+  background-color: grey; }
+  @media (max-width: 768px) {
+    .about .personal-photo {
+      height: 150px; } }
 
 .portfolio {
   background-color: purple; }
 
 .repos {
-  background-color: green; }
+  background-color: red; }
 
 .contact {
   background-color: yellow; }
@@ -133,6 +136,13 @@
   background-color: lightyellow;
   flex-direction: column;
   color: #333; }
+  .home-sections p {
+    font-size: 1.2em;
+    line-height: 1.6; }
+  .home-sections .btn-wide {
+    display: block;
+    padding: 20px 0;
+    text-transform: uppercase; }
   .home-sections .wrapper {
     display: flex;
     flex-direction: row; }
@@ -148,7 +158,10 @@
 .col-1-2 {
   max-width: 300px;
   margin: 0 10px;
-  background: green; }
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .col-1 {
   max-width: 620px;
@@ -157,7 +170,22 @@
 
 .col-one-side {
   width: 50%;
-  background: lightblue; }
+  background: lightblue;
+  align-self: center; }
+  .col-one-side ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0; }
+    .col-one-side ul li {
+      border-bottom: 1px dashed #333; }
+      .col-one-side ul li:last-child {
+        border-bottom: 0 none; }
+
+.personal-photo {
+  border-style: none;
+  border-radius: 50%;
+  height: 300px;
+  align-self: center; }
 
 @media (max-width: 768px) {
   .home-wrap {
@@ -166,7 +194,8 @@
     display: block; }
   .col-1-2,
   .col-1 {
-    max-width: 100%; }
+    max-width: 100%;
+    text-align: center; }
   .col-one-side {
     width: auto; } }
 

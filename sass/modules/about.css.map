@@ -5,6 +5,6 @@
     "about.sass"
   ],
   "sourcesContent": [],
-  "mappings": ";AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,IAAK,GADjB",
+  "mappings": ";AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,IAAK,GADjB;EAIN,MAAM,EAAL,SAAS,EAAE,KAAK;;IACf,MAAM,CAAC,eAAe,CAAN;MACd,MAAM,EAAE,KAAM,GADC",
   "names": []
 }

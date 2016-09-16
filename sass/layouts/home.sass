@@ -9,6 +9,17 @@
   flex-direction: column
   color: #333
   
+  
+  p
+    font-size: 1.2em
+    line-height: 1.6
+  
+  .btn-wide
+    display: block
+    padding: 20px 0
+    text-transform: uppercase
+  
+  
   // flex styles
   .wrapper
     display: flex
@@ -31,7 +42,10 @@
 .col-1-2
   max-width: 300px
   margin: 0 10px
-  background: green
+  background: lightgrey
+  display: flex
+  justify-content: center;
+  flex-direction: column;
 
 .col-1
   max-width: 620px
@@ -41,7 +55,26 @@
 .col-one-side
   width: 50%
   background: lightblue
+  align-self: center
   
+  ul
+    list-style: none
+    text-align: center
+    padding-left: 0
+    
+    li
+      border-bottom: 1px dashed #333
+      
+      &:last-child
+        border-bottom: 0 none
+
+.personal-photo
+  border-style: none;
+  border-radius: 50%;
+  height: 300px;
+  align-self: center;
+
+
 // media queries  
 @media (max-width: 768px)
   .home-wrap
@@ -53,6 +86,7 @@
   .col-1-2,
   .col-1
     max-width: 100%
+    text-align: center
   
   .col-one-side
     width: auto
