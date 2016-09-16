@@ -25,6 +25,9 @@
     text-transform: uppercase
     text-align: center
   
+  .yt-video
+    max-width: 100%
+  
   
   // flex styles
   .wrapper
@@ -56,7 +59,8 @@
 .col-1
   max-width: 620px
   margin: 0 10px
-  background: orange
+  color: darkgrey 
+
 
 .col-one-side
   width: 50%
@@ -78,6 +82,23 @@
     background: gold
     height: 300px
     width: auto
+    
+.col-620
+  width: 520px
+  display: flex
+  justify-content: center
+  flex-direction: column
+  
+  .thumbnail
+    background: gold
+    height: 300px
+    width: auto
+
+.col-social
+  max-width: 1200px
+  display: flex
+  flex-direction: column
+  align-self: center
 
 .personal-photo
   border-style: none;
@@ -95,9 +116,17 @@
     display: block
   
   .col-1-2,
-  .col-1
+  .col-1,
+  .col-620,
+  .col-social
     max-width: 100%
     text-align: center
   
-  .col-one-side
+  .col-one-side,
+  .col-620
     width: auto
+
+@media (min-width: 990px)
+  .flex-space-around
+    .col-1-2
+      padding: 0 50px

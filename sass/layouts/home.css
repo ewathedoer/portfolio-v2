@@ -25,24 +25,27 @@
     padding: 20px 0;
     text-transform: uppercase;
     text-align: center; }
-  /* line 30, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 28, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .yt-video {
+    max-width: 100%; }
+  /* line 33, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .wrapper {
     display: flex;
     flex-direction: row; }
-  /* line 34, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 37, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .flex-center {
     justify-content: center; }
-  /* line 37, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 40, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .flex-space-around {
     justify-content: space-around; }
-  /* line 40, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 43, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .order-first {
     order: -1; }
-  /* line 44, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 47, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections section {
     padding: 50px 0; }
 
-/* line 48, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 51, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-1-2 {
   max-width: 300px;
   margin: 0 10px;
@@ -51,35 +54,54 @@
   justify-content: center;
   flex-direction: column; }
 
-/* line 56, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 59, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-1 {
   max-width: 620px;
   margin: 0 10px;
-  background: orange; }
+  color: darkgrey; }
 
-/* line 61, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 65, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-one-side {
   width: 50%;
   background: lightblue;
   align-self: center; }
-  /* line 66, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 70, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-one-side ul {
     list-style: none;
     text-align: center;
     padding-left: 0; }
-    /* line 71, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+    /* line 75, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
     .col-one-side ul li {
       border-bottom: 1px dashed #333; }
-      /* line 74, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+      /* line 78, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
       .col-one-side ul li:last-child {
         border-bottom: 0 none; }
-  /* line 77, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 81, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-one-side .thumbnail {
     background: gold;
     height: 300px;
     width: auto; }
 
-/* line 82, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 86, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.col-620 {
+  width: 520px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  /* line 92, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .col-620 .thumbnail {
+    background: gold;
+    height: 300px;
+    width: auto; }
+
+/* line 97, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+.col-social {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+
+/* line 103, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .personal-photo {
   border-style: none;
   border-radius: 50%;
@@ -87,19 +109,27 @@
   align-self: center; }
 
 @media (max-width: 768px) {
-  /* line 91, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 112, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-wrap {
     display: block; }
-  /* line 94, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 115, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .wrapper {
     display: block; }
-  /* line 98, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 121, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-1-2,
-  .col-1 {
+  .col-1,
+  .col-620,
+  .col-social {
     max-width: 100%;
     text-align: center; }
-  /* line 102, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
-  .col-one-side {
+  /* line 126, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .col-one-side,
+  .col-620 {
     width: auto; } }
+
+@media (min-width: 990px) {
+  /* line 131, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .flex-space-around .col-1-2 {
+    padding: 0 50px; } }
 
 /*# sourceMappingURL=home.css.map */
