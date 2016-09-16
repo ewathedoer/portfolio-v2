@@ -1,0 +1,8 @@
+/* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/articles.sass */
+.medium {
+  background: url(../images/medium.png);
+  background-size: cover;
+  height: 100%;
+  display: block; }
+
+/*# sourceMappingURL=articles.css.map */

@@ -123,6 +123,24 @@
 .repos {
   background-color: red; }
 
+.medium {
+  background: url(../images/medium.png);
+  background-size: cover;
+  height: 100%;
+  display: block; }
+
+.temp-yt {
+  background: url(../images/youtube.png);
+  background-size: cover;
+  height: 100%;
+  display: block; }
+
+.temp-cover {
+  background: url(../images/twitter.png);
+  background-size: cover;
+  height: 100%;
+  display: block; }
+
 .contact {
   background-color: yellow; }
 
@@ -143,6 +161,11 @@
     display: block;
     padding: 20px 0;
     text-transform: uppercase; }
+  .home-sections .btn-cta {
+    display: block;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center; }
   .home-sections .wrapper {
     display: flex;
     flex-direction: row; }
@@ -180,6 +203,10 @@
       border-bottom: 1px dashed #333; }
       .col-one-side ul li:last-child {
         border-bottom: 0 none; }
+  .col-one-side .thumbnail {
+    background: gold;
+    height: 300px;
+    width: auto; }
 
 .personal-photo {
   border-style: none;

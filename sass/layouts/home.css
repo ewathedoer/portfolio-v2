@@ -19,24 +19,30 @@
     display: block;
     padding: 20px 0;
     text-transform: uppercase; }
-  /* line 24, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 22, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .home-sections .btn-cta {
+    display: block;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 30, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .wrapper {
     display: flex;
     flex-direction: row; }
-  /* line 28, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 34, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .flex-center {
     justify-content: center; }
-  /* line 31, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 37, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .flex-space-around {
     justify-content: space-around; }
-  /* line 34, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 40, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .order-first {
     order: -1; }
-  /* line 38, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 44, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections section {
     padding: 50px 0; }
 
-/* line 42, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 48, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-1-2 {
   max-width: 300px;
   margin: 0 10px;
@@ -45,30 +51,35 @@
   justify-content: center;
   flex-direction: column; }
 
-/* line 50, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 56, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-1 {
   max-width: 620px;
   margin: 0 10px;
   background: orange; }
 
-/* line 55, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 61, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .col-one-side {
   width: 50%;
   background: lightblue;
   align-self: center; }
-  /* line 60, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 66, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-one-side ul {
     list-style: none;
     text-align: center;
     padding-left: 0; }
-    /* line 65, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+    /* line 71, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
     .col-one-side ul li {
       border-bottom: 1px dashed #333; }
-      /* line 68, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+      /* line 74, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
       .col-one-side ul li:last-child {
         border-bottom: 0 none; }
+  /* line 77, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  .col-one-side .thumbnail {
+    background: gold;
+    height: 300px;
+    width: auto; }
 
-/* line 71, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+/* line 82, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
 .personal-photo {
   border-style: none;
   border-radius: 50%;
@@ -76,18 +87,18 @@
   align-self: center; }
 
 @media (max-width: 768px) {
-  /* line 80, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 91, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-wrap {
     display: block; }
-  /* line 83, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 94, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .home-sections .wrapper {
     display: block; }
-  /* line 87, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 98, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-1-2,
   .col-1 {
     max-width: 100%;
     text-align: center; }
-  /* line 91, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
+  /* line 102, /Users/thedoer/Documents/projects/portfolio-v2/sass/layouts/home.sass */
   .col-one-side {
     width: auto; } }
 
