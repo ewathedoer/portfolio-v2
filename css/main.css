@@ -144,6 +144,16 @@
 .contact {
   background-color: black; }
 
+.contact-link {
+  color: white;
+  padding: 1.5em; }
+  .contact-link i {
+    padding-right: 0.5em; }
+
+@media (max-width: 768px) {
+  .contact-link {
+    display: block; } }
+
 .home-wrap {
   display: flex;
   min-height: 100vh; }
@@ -183,7 +193,6 @@
 .col-1-2 {
   max-width: 300px;
   margin: 0 10px;
-  background: lightgrey;
   display: flex;
   justify-content: center;
   flex-direction: column; }
@@ -192,6 +201,8 @@
   max-width: 620px;
   margin: 0 10px;
   color: darkgrey; }
+  .col-1 .contact-header {
+    margin-top: 0; }
 
 .col-one-side {
   width: 50%;

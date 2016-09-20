@@ -2,4 +2,17 @@
 .contact {
   background-color: black; }
 
+/* line 4, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+.contact-link {
+  color: white;
+  padding: 1.5em; }
+  /* line 8, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  .contact-link i {
+    padding-right: 0.5em; }
+
+@media (max-width: 768px) {
+  /* line 13, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  .contact-link {
+    display: block; } }
+
 /*# sourceMappingURL=contact.css.map */
