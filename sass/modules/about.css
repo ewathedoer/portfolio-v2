@@ -1,8 +1,9 @@
 /* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/about.sass */
 .about {
-  background-color: grey; }
+  background-color: #C00017;
+  color: #fff; }
   @media (max-width: 768px) {
-    /* line 6, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/about.sass */
+    /* line 7, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/about.sass */
     .about .personal-photo {
       height: 150px; } }
 

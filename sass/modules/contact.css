@@ -4,14 +4,18 @@
 
 /* line 4, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
 .contact-link {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   padding: 1.5em; }
   /* line 8, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
   .contact-link i {
     padding-right: 0.5em; }
 
+/* line 11, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+.contact-link:hover, .contact-link:focus {
+  color: #fff; }
+
 @media (max-width: 768px) {
-  /* line 13, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  /* line 16, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
   .contact-link {
     display: block; } }
 

@@ -16,14 +16,17 @@
   
   .btn-wide
     display: block
-    padding: 20px 0
+    padding: 15px 0
     text-transform: uppercase
   
   .btn-cta
     display: block
-    padding: 20px 0
+    padding: 15px 0
     text-transform: uppercase
     text-align: center
+    border: 1px solid
+    margin: 0 2em
+    border-radius: 6px
   
   .yt-video
     max-width: 100%
@@ -52,8 +55,8 @@
   max-width: 300px
   margin: 0 10px
   display: flex
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center
+  flex-direction: column
 
 .col-1
   max-width: 620px
@@ -66,7 +69,6 @@
 
 .col-one-side
   width: 50%
-  background: lightblue
   align-self: center
   
   ul
@@ -75,7 +77,7 @@
     padding-left: 0
     
     li
-      border-bottom: 1px dashed #333
+      border-bottom: 1px dashed #fff
       
       &:last-child
         border-bottom: 0 none
@@ -103,11 +105,13 @@
   align-self: center
 
 .personal-photo
-  border-style: none;
-  border-radius: 50%;
-  height: 300px;
-  align-self: center;
+  border-style: none
+  border-radius: 50%
+  height: 300px
+  align-self: center
 
+.btn:hover, .btn:focus
+  box-shadow: 0px 5px 5px #888888
 
 // media queries  
 @media (max-width: 768px)

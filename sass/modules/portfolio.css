@@ -1,5 +1,9 @@
 /* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/portfolio.sass */
 .portfolio {
-  background-color: purple; }
+  background-color: #30232a;
+  color: #fff; }
+  /* line 6, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/portfolio.sass */
+  .portfolio ul a {
+    color: #fff; }
 
 /*# sourceMappingURL=portfolio.css.map */

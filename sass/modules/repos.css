@@ -1,5 +1,16 @@
 /* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/repos.sass */
 .repos {
-  background-color: red; }
+  background-color: #ceffd8; }
+  /* line 4, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/repos.sass */
+  .repos li {
+    margin-bottom: 1em; }
+    /* line 7, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/repos.sass */
+    .repos li a {
+      border: 1px solid;
+      margin: 0 5em;
+      border-radius: 6px; }
+  /* line 14, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/repos.sass */
+  .repos .col-one-side ul li {
+    border: none; }
 
 /*# sourceMappingURL=repos.css.map */
