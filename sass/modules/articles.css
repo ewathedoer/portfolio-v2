@@ -1,8 +1,11 @@
 /* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/articles.sass */
 .medium {
-  background: url(../images/medium.png);
   background-size: cover;
   height: 100%;
   display: block; }
+  /* line 6, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/articles.sass */
+  .medium img {
+    width: 100%;
+    height: auto; }
 
 /*# sourceMappingURL=articles.css.map */

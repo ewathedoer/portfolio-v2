@@ -1,21 +1,24 @@
 /* line 1, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
 .contact {
   background-color: black; }
+  /* line 4, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  .contact h2 {
+    color: lightyellow; }
 
-/* line 4, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+/* line 7, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
 .contact-link {
   color: rgba(255, 255, 255, 0.5);
   padding: 1.5em; }
-  /* line 8, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  /* line 11, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
   .contact-link i {
     padding-right: 0.5em; }
 
-/* line 11, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+/* line 14, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
 .contact-link:hover, .contact-link:focus {
-  color: #fff; }
+  color: lightyellow; }
 
 @media (max-width: 768px) {
-  /* line 16, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
+  /* line 19, /Users/thedoer/Documents/projects/portfolio-v2/sass/modules/contact.sass */
   .contact-link {
     display: block; } }
 

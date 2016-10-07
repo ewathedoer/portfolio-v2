@@ -5,7 +5,7 @@
 .home-sections
   display: flex
   flex: 1
-  background-color: lightyellow
+  background-color: $yellow
   flex-direction: column
   color: #333
   
@@ -48,7 +48,7 @@
   
   // air between each menu section   
   section
-    padding: 50px 0
+    padding: 70px 0
 
 // grid columns
 .col-1-2
@@ -77,15 +77,15 @@
     padding-left: 0
     
     li
-      border-bottom: 1px dashed #fff
+      border-bottom: 1px dashed $secondary-text
       
       &:last-child
         border-bottom: 0 none
   
   .thumbnail
-    background: gold
     height: 300px
     width: auto
+    
     
 .col-520
   width: 520px
@@ -94,15 +94,23 @@
   flex-direction: column
   
   .thumbnail
-    background: gold
-    height: 300px
+    height: 293px
     width: auto
+    
+  .thumbnail.twitter
+    height: 500px
 
+  .thumbnail.medium
+    height: 375px
+    width: 520px
+    align-self: center
+    
 .col-social
   max-width: 1200px
   display: flex
   flex-direction: column
   align-self: center
+  color: $secondary-text
 
 .personal-photo
   border-style: none
@@ -121,6 +129,9 @@
   .home-sections .wrapper
     display: block
   
+  .home-sections section
+    padding: 50px 0
+    
   .col-1-2,
   .col-1,
   .col-520,
@@ -131,8 +142,28 @@
   .col-one-side,
   .col-520
     width: auto
+  
+  .col-social
+    h2
+      margin-top: 2em
 
 @media (min-width: 990px)
   .flex-space-around
     .col-1-2
       padding: 0 50px
+
+@media (max-width: 519px)
+  .home-wrap
+    display: block
+
+  .home-sections .wrapper
+    display: block
+    
+  .col-520
+    max-width: 100%
+    text-align: center
+    width: auto
+    
+    .thumbnail.medium
+      width: auto
+      height: auto

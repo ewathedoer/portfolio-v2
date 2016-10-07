@@ -1,5 +1,8 @@
 .contact
   background-color: black
+  
+  h2
+    color: $yellow
 
 .contact-link
   color: rgba(255,255,255,0.5)
@@ -9,9 +12,10 @@
     padding-right: 0.5em
   
 .contact-link:hover, .contact-link:focus
-  color: #fff
+  color: $yellow
 
 // media queries  
 @media (max-width: 768px)
   .contact-link
     display: block
+    color: $yellow-darker
