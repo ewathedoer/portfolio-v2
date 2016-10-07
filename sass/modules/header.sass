@@ -15,6 +15,7 @@
       justify-content: space-between
 
   .logo
+    display: block
     max-width: 120px
     height: 120px
     width: 120px
@@ -50,6 +51,9 @@
     display: block
     text-align: right
     padding-right: 20px
+  
+  .email-link:hover, email-link:focus
+    color: $primary-color
 
   .mobile-nav-toggle
     display: none
@@ -107,8 +111,19 @@
     li
       text-align: center
       margin-bottom: 10px
-    
   
+.logo-image
+  &:hover .logo, &:focus .logo, &:active .logo
+    display: none
+    
+  &:hover .logo-hover, &:focus .logo-hover, &:active .logo-hover
+    display: block
+  
+  .logo-hover
+    display: none
+
+      
+//media-queries
 @media (max-width: 768px)
   .home-wrap 
     header

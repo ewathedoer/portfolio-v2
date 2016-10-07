@@ -13,6 +13,7 @@
     justify-content: space-between; }
 
 .home-wrap .logo {
+  display: block;
   max-width: 120px;
   height: 120px;
   width: 120px;
@@ -40,6 +41,9 @@
   display: block;
   text-align: right;
   padding-right: 20px; }
+
+.home-wrap .email-link:hover, .home-wrap email-link:focus {
+  color: #d32f2f; }
 
 .home-wrap .mobile-nav-toggle {
   display: none;
@@ -87,6 +91,15 @@
   .home-wrap .mobile-nav li {
     text-align: center;
     margin-bottom: 10px; }
+
+.logo-image:hover .logo, .logo-image:focus .logo, .logo-image:active .logo {
+  display: none; }
+
+.logo-image:hover .logo-hover, .logo-image:focus .logo-hover, .logo-image:active .logo-hover {
+  display: block; }
+
+.logo-image .logo-hover {
+  display: none; }
 
 @media (max-width: 768px) {
   .home-wrap header {
