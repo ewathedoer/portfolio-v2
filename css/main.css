@@ -136,10 +136,16 @@
 .portfolio {
   background-color: #bdbdbd;
   color: #333; }
+  .portfolio .btn-wide {
+    background: transparent;
+    border: 0 none;
+    cursor: pointer;
+    width: 100%; }
   .portfolio ul a {
     color: #333; }
-  .portfolio ul a:hover, .portfolio ul a:focus {
-    color: #fff; }
+  .portfolio ul :hover, .portfolio ul :focus {
+    color: #fff;
+    outline: 0; }
   .portfolio ul li {
     margin: 0 1em; }
 
