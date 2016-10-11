@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-v2",
+  "homepage": "https://github.com/ewathedoer/portfolio-v2",
+  "authors": [
+    "Ewa Mitulska-Wójcik <thedoerdoes@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~15.3.2"
+  }
+}
