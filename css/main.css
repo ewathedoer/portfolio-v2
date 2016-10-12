@@ -151,7 +151,7 @@
     margin: 0 1em; }
 
 @media (min-width: 769px) {
-  .portfolio #portfolio-subpages {
+  .portfolio .portfolio-subpages {
     border: 1px dashed;
     border-radius: 6px;
     margin-right: 2em; } }
@@ -300,6 +300,11 @@
   align-self: center;
   color: #333; }
 
+.col-subpages {
+  margin: 50px 0 -50px;
+  padding: 50px 10px;
+  background-color: red; }
+
 .personal-photo {
   border-style: none;
   border-radius: 50%;
@@ -327,6 +332,10 @@
     width: auto; }
   .col-social h2 {
     margin-top: 2em; } }
+
+@media (min-width: 769px) {
+  .col-subpages {
+    margin: 70px 0 -70px; } }
 
 @media (min-width: 990px) {
   .flex-space-around .col-1-2 {
