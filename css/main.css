@@ -140,7 +140,8 @@
     background: transparent;
     border: 0 none;
     cursor: pointer;
-    width: 100%; }
+    width: 100%;
+    font-weight: 700; }
   .portfolio ul a {
     color: #333; }
   .portfolio ul :hover, .portfolio ul :focus {
@@ -148,6 +149,12 @@
     outline: 0; }
   .portfolio ul li {
     margin: 0 1em; }
+
+@media (min-width: 769px) {
+  .portfolio #portfolio-subpages {
+    border: 1px dashed;
+    border-radius: 6px;
+    margin-right: 2em; } }
 
 .repos {
   background: #009688 url(../images/textures/tech_background.png);
