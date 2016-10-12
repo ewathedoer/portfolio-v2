@@ -127,7 +127,7 @@
     transform: translateY(0%); } }
 
 .about {
-  background-color: #d32f2f;
+  background: #d32f2f url(../images/textures/carbon_fibre.png);
   color: #fff; }
   @media (max-width: 768px) {
     .about .personal-photo {
@@ -150,7 +150,7 @@
     margin: 0 1em; }
 
 .repos {
-  background-color: #009688;
+  background: #009688 url(../images/textures/tech_background.png);
   color: #fff; }
   .repos li {
     margin-bottom: 1em; }
@@ -185,7 +185,7 @@
   display: block; }
 
 .contact {
-  background-color: black; }
+  background: #000 url(../images/textures/noisy_grid.png); }
   .contact h2 {
     color: #ffecb3; }
 
