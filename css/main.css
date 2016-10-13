@@ -127,7 +127,7 @@
     transform: translateY(0%); } }
 
 .about {
-  background: #d32f2f url(../images/textures/carbon_fibre.png);
+  background: #d32f2f url(../images/textures/noisy_grid.png);
   color: #fff; }
   @media (max-width: 768px) {
     .about .personal-photo {
@@ -293,7 +293,7 @@
     width: 520px;
     align-self: center; }
 
-.col-social {
+.col-desktop-narrow {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -303,7 +303,26 @@
 .col-subpages {
   margin: 50px 0 -50px;
   padding: 50px 10px;
-  background-color: red; }
+  background: #d1d1d1 url(../images/textures/noisy_grid.png);
+  display: flex;
+  flex-direction: column;
+  flex: 1; }
+  .col-subpages .wrapper {
+    padding-bottom: 50px; }
+    .col-subpages .wrapper:last-child {
+      padding-bottom: 0; }
+  .col-subpages .btn-portfolio {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px dashed;
+    margin: 0 2em;
+    border-radius: 6px;
+    margin-bottom: 1em; }
+  .col-subpages .img-portfolio, .col-subpages .img-portfolio img {
+    max-width: 100%;
+    height: auto; }
 
 .personal-photo {
   border-style: none;
@@ -320,18 +339,22 @@
   .home-sections .wrapper {
     display: block; }
   .home-sections section {
-    padding: 50px 0; }
+    padding: 50px 10px; }
   .col-1-2,
   .col-1,
   .col-520,
-  .col-social {
+  .col-desktop-narrow {
     max-width: 100%;
     text-align: center; }
   .col-one-side,
   .col-520 {
     width: auto; }
-  .col-social h2 {
+  .col-desktop-narrow h2 {
     margin-top: 2em; } }
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 0; }
 
 @media (min-width: 769px) {
   .col-subpages {

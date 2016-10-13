@@ -13,7 +13,54 @@ var SubpageLink = React.createClass({
 var Applications = React.createClass({
   render() {
     return (<div className="col-subpages">
-        <h2>here there will be applications yupiiii</h2>
+        
+        <section className="col-desktop-narrow">    
+          <section className="wraper flex-center">
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="thumbnail img-portfolio">
+                  <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank">
+                    <img src="images/portfolio/wiki-viewer.png" alt="wikipedia viewer application" />
+                  </a>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <h3>Wikipedia Viewer</h3>
+                <p>
+                  Users can search through the extracts of Wikipedia articles and filter which they should read fully.
+                </p>
+                <div className="btn-box">
+                  <a href="http://codepen.io/thedoer/pen/EKbrpO" target="_blank" className="btn-portfolio btn">code</a>
+                  <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank" className="btn-portfolio btn">live site</a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="thumbnail img-portfolio">
+                  <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank">
+                    <img src="images/portfolio/wiki-viewer.png" alt="wikipedia viewer application" />
+                  </a>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <h3>Wikipedia Viewer</h3>
+                <p>
+                  Users can search through the extracts of Wikipedia articles and filter which they should read fully.
+                </p>
+                <div className="btn-box">
+                  <a href="http://codepen.io/thedoer/pen/EKbrpO" target="_blank" className="btn-portfolio btn">code</a>
+                  <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank" className="btn-portfolio btn">live site</a>
+                </div>
+              </div>
+            </div> 
+            
+          </section> 
+        </section>
+        
+        
+            
       </div>     
     );
   }
