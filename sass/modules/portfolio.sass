@@ -1,6 +1,6 @@
 .portfolio
   background-color: $grey
-  color: $secondary-text
+  color: $primary-text
   
   .btn-wide
     background: transparent
@@ -11,16 +11,19 @@
 
   ul
     a
-      color: $secondary-text
+      color: $primary-text
     
     :hover, :focus
-      color: $primary-text
+      color: $yellow-lighter
       outline: 0
   
     li
       margin: 0 1em
+  
+  .btn-wide
+    color: $primary-text
 
-@media (min-width: 769px)
+@media (min-width: $mobile-menu-threshold + 1px)
   .portfolio
     .portfolio-subpages
       border: 1px dashed

@@ -1,3 +1,6 @@
+html
+  min-width: 320px
+  
 .home-wrap
   display: flex
   min-height: 100vh
@@ -27,9 +30,6 @@
     border: 1px solid
     margin: 0 2em
     border-radius: 6px
-  
-  .yt-video
-    max-width: 100%
   
   
   // flex styles
@@ -77,7 +77,7 @@
     padding-left: 0
     
     li
-      border-bottom: 1px dashed $secondary-text
+      border-bottom: 1px dashed $primary-text
       
       &:last-child
         border-bottom: 0 none
@@ -114,11 +114,14 @@
 
 .col-subpages
   margin: 50px 0 -50px;
-  padding: 50px 10px;
+  padding: 0px 10px;
   background: $grey-lighter url(../images/textures/noisy_grid.png)
   display: flex
   flex-direction: column
   flex: 1
+  
+  .col-desktop-narrow
+    padding: 0
   
   .wrapper
     padding-bottom: 50px 
@@ -148,10 +151,25 @@
 
 .btn:hover, .btn:focus
   box-shadow: 0px 5px 5px #888888
-
+  
+.video
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 30px
+  height: 0
+  overflow: hidden
+  width: 520px
+  align-self: center
+  
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
 
 // media queries  
-@media (max-width: 768px)
+@media (max-width: $mobile-menu-threshold)
   .home-wrap
     display: block
 
@@ -180,7 +198,7 @@ h3
   font-size: 1.3em
   margin-bottom: 0
 
-@media (min-width: 769px) 
+@media (min-width: $mobile-menu-threshold + 1px) 
   .col-subpages
     margin: 70px 0 -70px
       
@@ -196,6 +214,8 @@ h3
   .home-sections .wrapper
     display: block
     
+      
+@media (max-width: 559px)
   .col-520
     max-width: 100%
     text-align: center
@@ -204,3 +224,19 @@ h3
     .thumbnail.medium
       width: auto
       height: auto
+      
+    .video
+      width: auto
+      align-self: auto
+      
+      
+@media (min-width: 560px)
+  .col-520
+    .video
+      height: 293px
+      padding: 0
+      
+  .col-subpages
+    .img-portfolio, .img-portfolio img
+      max-width: 520px
+      align-self: center

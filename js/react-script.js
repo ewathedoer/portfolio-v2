@@ -21,7 +21,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank">
-                    <img src="images/portfolio/wiki-viewer.png" alt="wikipedia viewer application" />
+                    <img src="images/portfolio/wiki.jpg" alt="wikipedia viewer application" />
                   </a>
                 </div>
               </div>
@@ -41,7 +41,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/pomodoro/" target="_blank">
-                    <img src="images/portfolio/pomodoro.png" alt="pomodoro clock application" />
+                    <img src="images/portfolio/pomodoro.jpg" alt="pomodoro clock application" />
                   </a>
                 </div>
               </div>
@@ -61,7 +61,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/simon-game/" target="_blank">
-                    <img src="images/portfolio/simon.png" alt="simon game application" />
+                    <img src="images/portfolio/simon.jpg" alt="simon game application" />
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/tictactoe/" target="_blank">
-                    <img src="images/portfolio/tictactoe.png" alt="tic tac toe application" />
+                    <img src="images/portfolio/tictactoe.jpg" alt="tic tac toe application" />
                   </a>
                 </div>
               </div>
@@ -118,7 +118,7 @@ var Websites = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="https://procreative.eu/" target="_blank">
-                    <img src="images/portfolio/procreative.png" alt="company website" />
+                    <img src="images/portfolio/procreative.jpg" alt="company website" />
                   </a>
                 </div>
               </div>
@@ -144,7 +144,28 @@ var Websites = React.createClass({
 var Design = React.createClass({
   render() {
     return (<div className="col-subpages">
-        <h2>here there will be design cases</h2>
+        
+        <section className="col-desktop-narrow">    
+          <section className="wraper flex-center">
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="video">
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <h2>ProCreative Case Study</h2>
+                <p>
+                  The goal was to present the small software company, its portfolio, and motivate clients to hire the team. 
+                </p>
+                <a href="https://procreative.eu/" target="_blank" className="btn-portfolio  btn">final result</a>
+              </div>
+            </div> 
+              
+          </section>
+        </section>    
+            
       </div>
     );
   }
