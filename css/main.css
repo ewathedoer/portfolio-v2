@@ -77,13 +77,13 @@
     transform: rotate(-45deg); }
 
 .home-wrap .mobile-nav {
-  display: none;
   position: absolute;
   width: 100%;
   background: #fff;
-  padding: 30px 0 20px;
-  transform: translateY(-100%);
-  transition: all 0.3s ease-in-out; }
+  padding: 0;
+  transition: max-height 1s;
+  max-height: 0;
+  overflow: hidden; }
   .home-wrap .mobile-nav ul {
     list-style: none;
     margin: 0;
@@ -123,8 +123,10 @@
     .home-wrap header .mobile-nav-toggle {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
-    display: block;
-    transform: translateY(0%); } }
+    padding: 30px 0 20px;
+    transition: max-height 1s;
+    max-height: 400px;
+    text-indent: 0; } }
 
 .about {
   background: #d32f2f url(../images/textures/noisy_grid.png);

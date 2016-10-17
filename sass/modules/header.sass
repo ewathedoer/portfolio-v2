@@ -95,13 +95,13 @@
   
   // Mobile Navigation
   .mobile-nav
-    display: none
     position: absolute
     width: 100%
     background: #fff
-    padding: 30px 0 20px
-    transform: translateY(-100%)
-    transition: all 0.3s ease-in-out
+    padding: 0
+    transition: max-height 1s
+    max-height: 0
+    overflow: hidden
     
     ul
       list-style: none
@@ -152,5 +152,7 @@
         display: flex
 
     .mobile-nav.is-open
-      display: block
-      transform: translateY(0%)
+      padding: 30px 0 20px
+      transition: max-height 1s
+      max-height: 400px
+      text-indent: 0
