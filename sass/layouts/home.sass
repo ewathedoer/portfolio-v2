@@ -1,6 +1,9 @@
 html
   min-width: 320px
   
+  h2
+    font-size: 2em
+  
 .home-wrap
   display: flex
   min-height: 100vh
@@ -19,17 +22,19 @@ html
   
   .btn-wide
     display: block
-    padding: 15px 0
+    padding: 15px 20px
     text-transform: uppercase
   
   .btn-cta
     display: block
-    padding: 15px 0
+    padding: 15px 20px
     text-transform: uppercase
     text-align: center
     border: 1px solid
     margin: 0 2em
     border-radius: 6px
+    max-width: 400px
+    align-self: center
   
   
   // flex styles
@@ -111,14 +116,17 @@ html
   flex-direction: column
   align-self: center
   color: $secondary-text
+  
+  h2
+    font-size: 1.5em
 
 .col-subpages
-  margin: 50px 0 -50px;
-  padding: 0px 10px;
+  margin: 50px 0 -40px;
   background: $grey-lighter url(../images/textures/noisy_grid.png)
   display: flex
   flex-direction: column
   flex: 1
+  border-radius: 0 0 6px 6px
   
   .col-desktop-narrow
     padding: 0
@@ -138,6 +146,8 @@ html
     margin: 0 2em
     border-radius: 6px
     margin-bottom: 1em
+    max-width: 400px;
+    align-self: center;
   
   .img-portfolio, .img-portfolio img
     max-width: 100%
@@ -185,7 +195,10 @@ html
   .col-desktop-narrow
     max-width: 100%
     text-align: center
-  
+    
+  .col-1-2
+    padding: 0 2em
+    
   .col-one-side,
   .col-520
     width: auto
@@ -198,9 +211,11 @@ h3
   font-size: 1.3em
   margin-bottom: 0
 
+
 @media (min-width: $mobile-menu-threshold + 1px) 
   .col-subpages
     margin: 70px 0 -70px
+    border-radius: 0
       
 @media (min-width: 990px)
   .flex-space-around

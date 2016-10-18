@@ -81,16 +81,18 @@
   width: 100%;
   background: #fff;
   padding: 0;
-  transition: max-height 1s;
   max-height: 0;
   overflow: hidden; }
   .home-wrap .mobile-nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0; }
+    margin: 60px 0 0;
+    padding: 30px 0 20px;
+    max-height: 0;
+    overflow: hidden; }
   .home-wrap .mobile-nav li {
     text-align: center;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    line-height: 1.5; }
 
 .logo-image:hover .logo, .logo-image:focus .logo, .logo-image:active .logo {
   display: none; }
@@ -123,10 +125,10 @@
     .home-wrap header .mobile-nav-toggle {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
-    padding: 30px 0 20px;
     transition: max-height 1s;
-    max-height: 400px;
-    text-indent: 0; } }
+    max-height: 400px; }
+    .home-wrap .mobile-nav.is-open ul {
+      max-height: 400px; } }
 
 .about {
   background: #d32f2f url(../images/textures/noisy_grid.png);
@@ -216,6 +218,8 @@
 
 html {
   min-width: 320px; }
+  html h2 {
+    font-size: 2em; }
 
 .home-wrap {
   display: flex;
@@ -232,16 +236,18 @@ html {
     line-height: 1.6; }
   .home-sections .btn-wide {
     display: block;
-    padding: 15px 0;
+    padding: 15px 20px;
     text-transform: uppercase; }
   .home-sections .btn-cta {
     display: block;
-    padding: 15px 0;
+    padding: 15px 20px;
     text-transform: uppercase;
     text-align: center;
     border: 1px solid;
     margin: 0 2em;
-    border-radius: 6px; }
+    border-radius: 6px;
+    max-width: 400px;
+    align-self: center; }
   .home-sections .wrapper {
     display: flex;
     flex-direction: row; }
@@ -304,14 +310,16 @@ html {
   flex-direction: column;
   align-self: center;
   color: #333; }
+  .col-desktop-narrow h2 {
+    font-size: 1.5em; }
 
 .col-subpages {
-  margin: 50px 0 -50px;
-  padding: 0px 10px;
+  margin: 50px 0 -40px;
   background: #d1d1d1 url(../images/textures/noisy_grid.png);
   display: flex;
   flex-direction: column;
-  flex: 1; }
+  flex: 1;
+  border-radius: 0 0 6px 6px; }
   .col-subpages .col-desktop-narrow {
     padding: 0; }
   .col-subpages .wrapper {
@@ -326,7 +334,9 @@ html {
     border: 1px solid;
     margin: 0 2em;
     border-radius: 6px;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    max-width: 400px;
+    align-self: center; }
   .col-subpages .img-portfolio, .col-subpages .img-portfolio img {
     max-width: 100%;
     height: auto; }
@@ -368,6 +378,8 @@ html {
   .col-desktop-narrow {
     max-width: 100%;
     text-align: center; }
+  .col-1-2 {
+    padding: 0 2em; }
   .col-one-side,
   .col-520 {
     width: auto; }
@@ -380,7 +392,8 @@ h3 {
 
 @media (min-width: 841px) {
   .col-subpages {
-    margin: 70px 0 -70px; } }
+    margin: 70px 0 -70px;
+    border-radius: 0; } }
 
 @media (min-width: 990px) {
   .flex-space-around .col-1-2 {
