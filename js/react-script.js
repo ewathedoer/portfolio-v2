@@ -125,13 +125,30 @@ var Websites = React.createClass({
               <div className="col-1-2 order-first">
                 <h3>ProCreative Website</h3>
                 <p>
-                  Company site based on Polymer. I worked on code, design, copy, cartoons, and movies.
+                  Company site built using Polymer. I worked on code, design, copy, cartoons, and movies.
                 </p>
                 <div className="btn-box">
+                  <a href="https://github.com/ewathedoer/procreative" target="_blank" className="btn-portfolio btn">code</a>
                   <a href="https://procreative.eu/" target="_blank" className="btn-portfolio btn">live site</a>
                 </div>
               </div>
             </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="video">
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <p>
+                  The goal was to present the small software company, its portfolio, and motivate users to start cooperation.
+                </p>
+                <p>
+                  For user testing I used Typeform, Adobe Spark Page, Gooogle Hangout, Skype, Linkedin.
+                </p>
+              </div>
+            </div> 
               
           </section>
         </section>
@@ -148,20 +165,7 @@ var Design = React.createClass({
         <section className="col-desktop-narrow">    
           <section className="wraper flex-center">
             
-            <div className="wrapper flex-space-around">
-              <div className="col-520">
-                <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameborder="0" allowfullscreen></iframe>
-                </div>
-              </div>
-              <div className="col-1-2 order-first">
-                <h2>ProCreative Case Study</h2>
-                <p>
-                  The goal was to present the small software company, its portfolio, and motivate clients to hire the team. 
-                </p>
-                <a href="https://procreative.eu/" target="_blank" className="btn-portfolio  btn">final result</a>
-              </div>
-            </div> 
+            <p>Here there will be design cases</p>
               
           </section>
         </section>    
