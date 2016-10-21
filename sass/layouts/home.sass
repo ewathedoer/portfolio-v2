@@ -163,7 +163,7 @@ html
   position: relative
   padding-bottom: 56.25%
   padding-top: 30px
-  height: 0
+  height: auto
   overflow: hidden
   width: 520px
   align-self: center
@@ -174,6 +174,9 @@ html
     left: 0
     height: 100%
     width: 100%
+    
+.yt-video
+  height: 293px
 
 // media queries  
 @media (max-width: $mobile-menu-threshold)
@@ -214,6 +217,9 @@ h3
   .col-subpages
     margin: 70px 0 -70px
     border-radius: 0
+  
+  .yt-video
+    height: auto
       
 @media (min-width: 990px)
   .flex-space-around
