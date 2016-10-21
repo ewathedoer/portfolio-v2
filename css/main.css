@@ -8,15 +8,8 @@
     left: 0;
     bottom: 30px;
     width: 135px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between; }
 
 .home-wrap .logo {
@@ -25,8 +18,7 @@
   height: 120px;
   width: 120px;
   padding: 0;
-  margin: 0;
-  -ms-flex-item-align: center;
+  margin: 0 auto;
   align-self: center;
   background-image: url(../../images/logo.png);
   background-repeat: no-repeat;
@@ -58,9 +50,6 @@
   width: 50px;
   height: 50px;
   margin-right: 20px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
   cursor: pointer; }
   .home-wrap .mobile-nav-toggle span,
@@ -72,7 +61,6 @@
     width: 100%;
     background: #333;
     position: relative;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   .home-wrap .mobile-nav-toggle span:before {
     top: 15px; }
@@ -82,13 +70,10 @@
     background: transparent; }
   .home-wrap .mobile-nav-toggle.is-open span:before,
   .home-wrap .mobile-nav-toggle.is-open span:after {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 0; }
   .home-wrap .mobile-nav-toggle.is-open span:after {
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
 
 .home-wrap .mobile-nav {
@@ -128,13 +113,7 @@
       top: auto;
       bottom: auto;
       left: auto;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
       flex-direction: row;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -ms-grid-row-align: center;
       align-items: center; }
     .home-wrap header .site-nav,
     .home-wrap header .email-link {
@@ -144,11 +123,8 @@
       width: 50px;
       margin-left: 20px; }
     .home-wrap header .mobile-nav-toggle {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; }
   .home-wrap .mobile-nav.is-open {
-    -webkit-transition: max-height 1s;
     transition: max-height 1s;
     max-height: 400px; }
     .home-wrap .mobile-nav.is-open ul {
@@ -247,22 +223,13 @@ html {
     font-size: 2em; }
 
 .home-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh; }
 
 .home-sections {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   background-color: #ffecb3;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   color: #333; }
   .home-sections p {
@@ -281,26 +248,15 @@ html {
     margin: 0 2em;
     border-radius: 6px;
     max-width: 400px;
-    -ms-flex-item-align: center;
     align-self: center; }
   .home-sections .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row; }
   .home-sections .flex-center {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center; }
   .home-sections .flex-space-around {
-    -ms-flex-pack: distribute;
     justify-content: space-around; }
   .home-sections .order-first {
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
     order: -1; }
   .home-sections section {
     padding: 70px 0; }
@@ -308,15 +264,8 @@ html {
 .col-1-2 {
   max-width: 300px;
   margin: 0 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column; }
 
 .col-1 {
@@ -328,7 +277,6 @@ html {
 
 .col-one-side {
   width: 50%;
-  -ms-flex-item-align: center;
   align-self: center; }
   .col-one-side ul {
     list-style: none;
@@ -344,15 +292,8 @@ html {
 
 .col-520 {
   width: 520px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column; }
   .col-520 .thumbnail {
     height: 293px;
@@ -362,34 +303,20 @@ html {
   .col-520 .thumbnail.medium {
     height: 375px;
     width: 520px;
-    -ms-flex-item-align: center;
     align-self: center; }
 
 .col-desktop-narrow {
   max-width: 1200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-item-align: center;
   align-self: center;
   color: #333; }
 
 .col-subpages {
   margin: 50px 0 -40px;
   background: #d1d1d1 url(../images/textures/noisy_grid.png);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   border-radius: 0 0 6px 6px; }
   .col-subpages .col-desktop-narrow {
@@ -408,7 +335,6 @@ html {
     border-radius: 6px;
     margin-bottom: 1em;
     max-width: 400px;
-    -ms-flex-item-align: center;
     align-self: center; }
   .col-subpages .img-portfolio, .col-subpages .img-portfolio img {
     max-width: 100%;
@@ -418,7 +344,6 @@ html {
   border-style: none;
   border-radius: 50%;
   height: 300px;
-  -ms-flex-item-align: center;
   align-self: center; }
 
 .btn:hover, .btn:focus {
@@ -431,7 +356,6 @@ html {
   height: auto;
   overflow: hidden;
   width: 520px;
-  -ms-flex-item-align: center;
   align-self: center; }
   .video iframe {
     position: absolute;
@@ -496,7 +420,6 @@ h3 {
       height: auto; }
     .col-520 .video {
       width: auto;
-      -ms-flex-item-align: auto;
       align-self: auto; } }
 
 @media (min-width: 560px) {
@@ -505,7 +428,6 @@ h3 {
     padding: 0; }
   .col-subpages .img-portfolio, .col-subpages .img-portfolio img {
     max-width: 520px;
-    -ms-flex-item-align: center;
     align-self: center; } }
 
 body {
@@ -516,3 +438,5 @@ a {
   color: #333;
   text-decoration: none;
   outline: 0; }
+
+/*# sourceMappingURL=main.css.map */
