@@ -1,8 +1,13 @@
 var SubpageLink = React.createClass({
+  scroll() {
+    var targetOffset = $("#subpages").offset().top;
+    $('html,body').animate({scrollTop: targetOffset}, 1000);
+  },
+  
   render() {
     return (
       <li>
-        <ReactRouter.Link to={this.props.href} className="btn-wide">
+        <ReactRouter.Link to={this.props.href} className="btn-wide" onClick={this.scroll}>
           {this.props.children}
         </ReactRouter.Link>
       </li>
@@ -14,7 +19,7 @@ var Applications = React.createClass({
   render() {
     return (<div className="col-subpages">
         
-        <section className="col-desktop-narrow">    
+        <section id="applications" className="col-desktop-narrow">    
           <section className="wraper flex-center">
             
             <div className="wrapper flex-space-around">
@@ -111,7 +116,7 @@ var Websites = React.createClass({
   render() {
     return (<div className="col-subpages">
         
-        <section className="col-desktop-narrow">    
+        <section id="websites" className="col-desktop-narrow">    
           <section className="wraper flex-center">
             
             <div className="wrapper flex-space-around">
@@ -137,7 +142,7 @@ var Websites = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520 yt-video">
                 <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
               <div className="col-1-2 order-first">
@@ -162,7 +167,7 @@ var Design = React.createClass({
   render() {
     return (<div className="col-subpages">
         
-        <section className="col-desktop-narrow">    
+        <section id="design" className="col-desktop-narrow">    
           <section className="wraper flex-center">
             
             <p>Here there will be design cases</p>
@@ -202,7 +207,9 @@ var Portfolio = React.createClass({
         </div>
       </div>
       
-      {this.props.children}
+      <div id="subpages">
+        {this.props.children}
+      </div>
     </div>);
   }
 });
