@@ -26,7 +26,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="https://s.codepen.io/thedoer/debug/EKbrpO" target="_blank">
-                    <img src="images/portfolio/wiki.png" alt="wikipedia viewer application" />
+                    <img src="/images/portfolio/wiki.png" alt="wikipedia viewer application" />
                   </a>
                 </div>
               </div>
@@ -46,7 +46,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/pomodoro/" target="_blank">
-                    <img src="images/portfolio/pomodoro.png" alt="pomodoro clock application" />
+                    <img src="/images/portfolio/pomodoro.png" alt="pomodoro clock application" />
                   </a>
                 </div>
               </div>
@@ -66,7 +66,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/simon-game/" target="_blank">
-                    <img src="images/portfolio/simon.png" alt="simon game application" />
+                    <img src="/images/portfolio/simon.png" alt="simon game application" />
                   </a>
                 </div>
               </div>
@@ -86,7 +86,7 @@ var Applications = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="http://theonewhodo.es/tictactoe/" target="_blank">
-                    <img src="images/portfolio/tictactoe.png" alt="tic tac toe application" />
+                    <img src="/images/portfolio/tictactoe.png" alt="tic tac toe application" />
                   </a>
                 </div>
               </div>
@@ -123,7 +123,7 @@ var Websites = React.createClass({
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
                   <a href="https://procreative.eu/" target="_blank">
-                    <img src="images/portfolio/procreative.png" alt="company website" />
+                    <img src="/images/portfolio/procreative.png" alt="company website" />
                   </a>
                 </div>
               </div>
@@ -217,7 +217,7 @@ var Portfolio = React.createClass({
 /**/
 
 ReactDOM.render(
-  <ReactRouter.Router>
+  <ReactRouter.Router history={ReactRouter.browserHistory}>
     <ReactRouter.Route path="/" component={Portfolio}>
       <ReactRouter.Route path="portfolio/applications" component={Applications} />
       <ReactRouter.Route path="portfolio/websites" component={Websites} />
