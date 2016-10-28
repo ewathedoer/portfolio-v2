@@ -440,6 +440,7 @@ h3 {
 @media (min-width: 560px) {
   .col-520 .video {
     height: 293px;
+    width: 520px;
     padding: 0; }
   .col-subpages .img-portfolio, .col-subpages .img-portfolio img {
     max-width: 520px;
