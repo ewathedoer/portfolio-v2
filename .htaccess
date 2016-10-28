@@ -1,3 +1,6 @@
+Redirect 301 /andalucia http://theonewhodo.es/passion/andalucia
+Redirect 301 /foodbook http://theonewhodo.es/passion/foodbook
+
 RewriteEngine On
 RewriteBase /
 RewriteRule ^index\.html$ - [L]

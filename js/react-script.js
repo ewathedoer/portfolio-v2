@@ -128,9 +128,9 @@ var Websites = React.createClass({
                 </div>
               </div>
               <div className="col-1-2 order-first">
-                <h3>ProCreative Website</h3>
+                <h3>Company Website</h3>
                 <p>
-                  Company site built using Polymer. I worked on code, design, copy, cartoons, and movies.
+                  ProCreative website built using Polymer. I worked on code, design, copy, cartoons, and movies.
                 </p>
                 <div className="btn-box">
                   <a href="https://github.com/ewathedoer/procreative" target="_blank" className="btn-portfolio btn">code</a>
@@ -153,7 +153,27 @@ var Websites = React.createClass({
                   For user testing I used Typeform, Adobe Spark Page, Gooogle Hangout, Skype, Linkedin.
                 </p>
               </div>
-            </div> 
+            </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="thumbnail img-portfolio">
+                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank">
+                    <img src="/images/portfolio/landing.png" alt="company website" />
+                  </a>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <h3>Landing Page</h3>
+                <p>
+                  Previous personal landing page serving as quick intro about me.
+                </p>
+                <div className="btn-box">
+                  <a href="https://github.com/ewathedoer/doer-in-malaga" target="_blank" className="btn-portfolio btn">code</a>
+                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank" className="btn-portfolio btn">live site</a>
+                </div>
+              </div>
+            </div>
               
           </section>
         </section>
