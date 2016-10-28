@@ -30,16 +30,14 @@
   margin: 30px 0;
   padding: 0 20px 0 0;
   text-align: right; }
-  .home-wrap .site-nav ul li {
-    margin: 10px 0; }
-    .home-wrap .site-nav ul li:last-child {
-      margin-bottom: 0; }
-    .home-wrap .site-nav ul li a:hover, .home-wrap .site-nav ul li a:focus {
-      color: #fff;
-      background-color: #d32f2f; }
-    .home-wrap .site-nav ul li a {
-      display: block;
-      padding: 10px 5px 10px 0; }
+  .home-wrap .site-nav ul li:last-child {
+    margin-bottom: 0; }
+  .home-wrap .site-nav ul li a:hover, .home-wrap .site-nav ul li a:focus {
+    color: #fff;
+    background-color: #d32f2f; }
+  .home-wrap .site-nav ul li a {
+    display: block;
+    padding: 10px 5px 10px 0; }
 
 .home-wrap .email-link {
   display: block;
