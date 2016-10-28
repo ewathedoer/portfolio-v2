@@ -177,9 +177,6 @@ html
     left: 0
     height: 100%
     width: 100%
-    
-.yt-video
-  height: 293px
   
 
 // media queries  
@@ -237,12 +234,16 @@ h3
   .home-sections .wrapper
     display: block
     
+    
+@media (max-width: 359px)
+  .col-520
+    .video
+      width: auto
       
 @media (max-width: 559px)
   .col-520
     max-width: 100%
     text-align: center
-    width: auto
     
     .thumbnail.medium
       width: auto
@@ -252,6 +253,15 @@ h3
       width: auto
       align-self: auto
       
+@media (min-width: 360px)
+  .col-520
+    .video
+      width: 320px
+      
+@media (min-width: 460px)
+  .col-520
+    .video
+      width: 420px
       
 @media (min-width: 560px)
   .col-520

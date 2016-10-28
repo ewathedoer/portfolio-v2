@@ -371,9 +371,6 @@ html {
     height: 100%;
     width: 100%; }
 
-.yt-video {
-  height: 293px; }
-
 @media (max-width: 840px) {
   .home-wrap {
     display: block; }
@@ -417,17 +414,28 @@ h3 {
   .home-sections .wrapper {
     display: block; } }
 
+@media (max-width: 359px) {
+  .col-520 .video {
+    width: auto; } }
+
 @media (max-width: 559px) {
   .col-520 {
     max-width: 100%;
-    text-align: center;
-    width: auto; }
+    text-align: center; }
     .col-520 .thumbnail.medium {
       width: auto;
       height: auto; }
     .col-520 .video {
       width: auto;
       align-self: auto; } }
+
+@media (min-width: 360px) {
+  .col-520 .video {
+    width: 320px; } }
+
+@media (min-width: 460px) {
+  .col-520 .video {
+    width: 420px; } }
 
 @media (min-width: 560px) {
   .col-520 .video {
