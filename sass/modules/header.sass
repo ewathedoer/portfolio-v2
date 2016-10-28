@@ -39,13 +39,17 @@
       text-align: right
 
       li
-        margin-bottom: 10px
+        margin: 10px 0
 
         &:last-child
           margin-bottom: 0
         
         a:hover, a:focus
-          color: $primary-color
+          color: $primary-text
+          background-color: $primary-color
+        
+        a
+          display: block
 
   .email-link
     display: block
@@ -53,7 +57,8 @@
     padding-right: 20px
   
   .email-link:hover, email-link:focus
-    color: $primary-color
+    color: $primary-text
+    background-color:$primary-color
 
   .mobile-nav-toggle
     display: none
@@ -111,8 +116,11 @@
     
     li
       text-align: center
-      margin-bottom: 10px
+      margin: 10px 0
       line-height: 1.5
+      
+      a
+        display: block
   
 .logo-image
   &:hover .logo, &:focus .logo, &:active .logo
