@@ -162,7 +162,7 @@ var Websites = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520 yt-video">
                 <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA" frameBorder="0" allowFullScreen></iframe>
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/2ksR9B5J7SA?rel=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
               <div className="col-1-2 order-first">
@@ -193,7 +193,7 @@ var Design = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520 yt-video">
                 <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/8-jIkq5i5UA" frameBorder="0" allowFullScreen></iframe>
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/8-jIkq5i5UA?rel=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
               <div className="col-1-2">
@@ -205,7 +205,7 @@ var Design = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520 yt-video">
                 <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/MkdHQpedb9A" frameBorder="0" allowFullScreen></iframe>
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/MkdHQpedb9A?rel=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
               <div className="col-1-2">
@@ -217,7 +217,7 @@ var Design = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520 yt-video">
                 <div className="video">
-                  <iframe width="520" height="293" src="https://www.youtube.com/embed/wapWVe43uu0" frameBorder="0" allowFullScreen></iframe>
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/wapWVe43uu0?rel=0" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </div>
               <div className="col-1-2">
