@@ -122,6 +122,26 @@ var Websites = React.createClass({
             <div className="wrapper flex-space-around">
               <div className="col-520">
                 <div className="thumbnail img-portfolio">
+                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank">
+                    <img src="/images/portfolio/landing.png" alt="company website" />
+                  </a>
+                </div>
+              </div>
+              <div className="col-1-2 order-first">
+                <h3>Landing Page</h3>
+                <p>
+                  Previous personal landing page serving as quick intro about me.
+                </p>
+                <div className="btn-box">
+                  <a href="https://github.com/ewathedoer/doer-in-malaga" target="_blank" className="btn-portfolio btn">code</a>
+                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank" className="btn-portfolio btn">live site</a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520">
+                <div className="thumbnail img-portfolio">
                   <a href="https://procreative.eu/" target="_blank">
                     <img src="/images/portfolio/procreative.png" alt="company website" />
                   </a>
@@ -154,26 +174,6 @@ var Websites = React.createClass({
                 </p>
               </div>
             </div>
-            
-            <div className="wrapper flex-space-around">
-              <div className="col-520">
-                <div className="thumbnail img-portfolio">
-                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank">
-                    <img src="/images/portfolio/landing.png" alt="company website" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-1-2 order-first">
-                <h3>Landing Page</h3>
-                <p>
-                  Previous personal landing page serving as quick intro about me.
-                </p>
-                <div className="btn-box">
-                  <a href="https://github.com/ewathedoer/doer-in-malaga" target="_blank" className="btn-portfolio btn">code</a>
-                  <a href="http://theonewhodo.es/doerinmalaga/" target="_blank" className="btn-portfolio btn">live site</a>
-                </div>
-              </div>
-            </div>
               
           </section>
         </section>
@@ -190,7 +190,41 @@ var Design = React.createClass({
         <section id="design" className="col-desktop-narrow">    
           <section className="wraper flex-center">
             
-            <p>Here there will be design cases</p>
+            <div className="wrapper flex-space-around">
+              <div className="col-520 yt-video">
+                <div className="video">
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/8-jIkq5i5UA" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="col-1-2">
+                <h3>Interaction Design</h3>
+                <a href="https://s.codepen.io/thedoer/debug/GZxdQO" target="_blank" className="btn-portfolio btn btn-lonely">live site</a>
+              </div>
+            </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520 yt-video">
+                <div className="video">
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/MkdHQpedb9A" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="col-1-2">
+                <h3>Navigation Design</h3>
+                <a href="https://procreative.eu/" target="_blank" className="btn-portfolio btn btn-lonely">live site</a>
+              </div>
+            </div>
+            
+            <div className="wrapper flex-space-around">
+              <div className="col-520 yt-video">
+                <div className="video">
+                  <iframe width="520" height="293" src="https://www.youtube.com/embed/wapWVe43uu0" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="col-1-2">
+                <h3>Visual Design</h3>
+                <a href="http://s.codepen.io/thedoer/debug/EKbrpO" target="_blank" className="btn-portfolio btn btn-lonely">live site</a>
+              </div>
+            </div>
               
           </section>
         </section>    
